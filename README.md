@@ -1,6 +1,6 @@
 a. Pre-Requisits
   1. Install Docker on Machine
-  2. docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins [to run Jenkins using Docker].
+  2. docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins [to run Jenkins using Docker].
   3. Open your web browser and navigate to http://localhost:8080 to access the Jenkins web interface.
   4. GitHub Account and JDK - Latest version
 
